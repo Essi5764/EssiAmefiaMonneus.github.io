@@ -14,44 +14,19 @@
 
   </head>
   <body>
-    <!-- Navbar Section -->
-    <!-- <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">COLOR</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
-          </li>
-          <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
+    
     
 
     <!----Heather Section Starts Here-->
    
     <section id="header"> 
-      <div class="container text-center">
+      
         <div class="user-box">
           <img src="img/barner2.png">
           <h1>Essi Monneus</h1>
           <p>Freelance Web Developer</p>
         </div>
-      </div>
+      
 
       <div class="scroll-btn">
         <div class="scroll-bar"><a href=""></a><span></span></div>
@@ -71,11 +46,11 @@
             <ul class="navbar-nav ml-auto ">
               <li class="nav-item"><a class="nav-link" aria-current="page" href="#">HOME</a></li>
                 
-              <li class="nav-item"><a class="nav-link" href="#">ABOUT ME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">ABOUT ME</a></li>
                 
-              <li class="nav-item"><a class="nav-link" href="#">PROJECTS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
 
-              <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
 
             </ul>
             <!-- <form class="d-flex">
@@ -118,29 +93,66 @@
         <div class="services__card">
           <h2>API Project I</h2>
           
-          <div class="services__btn"><button><a  href="https://essi5764.github.io/apiproject/"></a>Learn More</button></div>
+          <div class="services__btn"><a  href="https://essi5764.github.io/apiproject/"><button>Learn More</button></a></div>
         </div>
         <div class="services__card">
           <h2>API Project II</h2>
           
-          <div class="services__btn"><button><a  href="https://mysecondproject-23615.web.app/"></a>Learn More</button></div>
+          <div class="services__btn"><a  href="https://mysecondproject-23615.web.app/"><button>Learn More</button></a></div>
         </div>
         <div class="services__card">
           <h2>Static Layout</h2>
           
-          <div class="services__btn"><button><a  href="https://essi5764.github.io/staticlayout/"></a>Learn More</button></div>
+          <div class="services__btn"><a  href="https://essi5764.github.io/staticlayout/"><button>Learn More</button></a></div>
         </div>
         <div class="services__card">
           <h2>CSS Creature</h2>
           
-          <div class="services__btn"><button><a  href="https://codepen.io/essi5764/pen/bGgydJK"></a>Learn More</button></div>
+          <div class="services__btn"><a  href="https://codepen.io/essi5764/pen/bGgydJK"><button>Learn More</button></a></div>
         </div>
+        <!-- <div class="services__card">
+          <h2>Blue Badge TBA</h2>
+          
+          <div class="services__btn"><button><a  href=""></a>Learn More</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Red Badge TBA</h2>
+          
+          <div class="services__btn"><button><a  href=""></a>Learn More</button></div>
+        </div> -->
       </div>
     </div>
-
+    <!---contact form-->
+    <section id="contact"> <div class="container">
+      <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div></section>
+    <br>
+    <br>
+    <br>
+    
     
     <!-- Footer Section -->
-    
+    <div class="footer">
+      <p>Essi Monneus  | all rights reserved.</p>
+    </div>
 
     <script src="app.js"></script>
   </body>
